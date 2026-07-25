@@ -51,7 +51,11 @@ the two ever differ.
 3. Create a new folder: `issues/YYYY-MM-DD/`.
 4. Save the file there as `index.html`.
 5. Update `index.html` at the repo root so the "Latest Issue" card links to
-   the new issue and shows its title/date.
+   the new issue and shows its title/date. **Use a relative path**
+   (`issues/YYYY-MM-DD/`), never a leading-slash absolute path
+   (`/issues/YYYY-MM-DD/`) — this is a project site served at
+   `/wellington-wave/`, not the domain root, so an absolute path resolves
+   to the wrong place and 404s.
 6. Commit and push to `main`.
 
 GitHub Pages redeploys automatically on every push to `main` — no manual
