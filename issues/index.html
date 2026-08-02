@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="description" content="The Wellington Wave — browsable archive of every past issue.">
+  <title>The Wellington Wave — Issue Archive</title>
+  <style>
+    :root {
+      --ink:#15191d; --muted:#66717a; --line:#dce3e8; --paper:#fff;
+      --wash:#f3f7f9; --blue:#12a9e5; --deep:#073b54; --gold:#f4b740;
+      --sans:Arial, Helvetica, sans-serif;
+    }
+    * { box-sizing:border-box; }
+    body { margin:0; color:var(--ink); background:#e8eef1; font-family:var(--sans); line-height:1.6; }
+    .wrap { max-width:760px; margin:0 auto; background:var(--paper); box-shadow:0 12px 50px #1936471c; overflow:hidden; min-height:100vh; }
+    .hero { padding:clamp(40px,8vw,80px) 6vw clamp(36px,6vw,60px);
+      background:linear-gradient(135deg,#062f44 0%,#084b68 58%,#0875a0 100%); color:#fff; }
+    .kicker { color:#8fe0ff; font-size:12px; font-weight:800; letter-spacing:2px; text-transform:uppercase; }
+    h1 { margin:14px 0 16px; font-size:clamp(36px,8vw,60px); line-height:.95; letter-spacing:-2px; }
+    h1 span { color:var(--gold); }
+    .dek { max-width:560px; margin:0; font-size:clamp(16px,2.5vw,19px); line-height:1.5; color:#eaf7fc; font-weight:500; }
+    .back-link { display:inline-block; margin-top:20px; font-size:13px; font-weight:800; color:#8fe0ff; text-decoration:none; }
+    .back-link:hover { text-decoration:underline; }
+    .body { padding:clamp(32px,6vw,52px) 6vw; }
+    .season-label { font-size:11px; font-weight:800; letter-spacing:1.5px; text-transform:uppercase; color:var(--muted); margin:0 0 14px; }
+    .season-label:not(:first-child) { margin-top:36px; }
+    .issue-card { display:block; text-decoration:none; color:inherit; border:1px solid var(--line); border-radius:10px; padding:22px 24px;
+      background:var(--wash); transition:border-color .15s ease; margin-bottom:14px; }
+    .issue-card:hover { border-color:var(--blue); }
+    .issue-card:last-child { margin-bottom:0; }
+    .issue-title { font-size:clamp(20px,3.5vw,26px); font-weight:900; letter-spacing:-.5px; margin:0 0 8px; color:var(--deep); }
+    .issue-meta { font-size:13px; color:var(--muted); font-weight:600; }
+    .issue-dek { margin:10px 0 0; font-size:14px; color:#3d4750; line-height:1.5; }
+    .cta { display:inline-block; margin-top:14px; font-size:14px; font-weight:800; color:var(--blue); }
+    footer { padding:24px 6vw 40px; font-size:13px; color:var(--muted); border-top:1px solid var(--line); }
+    @media (max-width:720px) {
+      .issue-card { padding:18px 20px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="hero">
+      <div class="kicker">Wellington Waves Swim Team</div>
+      <h1>Issue <span>Archive</span></h1>
+      <p class="dek">Every past issue of The Wellington Wave, in one place — season results, standings, and swimmer milestones.</p>
+      <a class="back-link" href="../">← Back to the homepage</a>
+    </div>
+    <div class="body">
+      <div class="season-label">2026 Season</div>
+
+      <a class="issue-card" href="2026-08-01/">
+        <div class="issue-title">Back Where They Belong</div>
+        <div class="issue-meta">Championship &amp; Season Finale Edition · August 1, 2026</div>
+        <p class="issue-dek">Wellington completes an undefeated Division 2 championship season and finishes eighth of 18 teams at the 2026 VPSU Championship Meet.</p>
+        <div class="cta">Read the issue →</div>
+      </a>
+
+      <a class="issue-card" href="2026-07-26/">
+        <div class="issue-title">Third Across the League</div>
+        <div class="issue-meta">Summer Awards Edition · July 26, 2026</div>
+        <p class="issue-dek">Wellington finishes third among all 18 VPSU teams at the 2026 Summer Awards meet.</p>
+        <div class="cta">Read the issue →</div>
+      </a>
+
+      <a class="issue-card" href="2026-07-20/">
+        <div class="issue-title">A Perfect Finish</div>
+        <div class="issue-meta">Weekly Edition · Regular-Season Finale · July 20, 2026</div>
+        <p class="issue-dek">Wellington completes a perfect 5–0 Division 2 season.</p>
+        <div class="cta">Read the issue →</div>
+      </a>
+    </div>
+    <footer>
+      The Wellington Wave · published weekly during the VPSU summer season
+    </footer>
+  </div>
+</body>
+</html>
